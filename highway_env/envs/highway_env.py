@@ -138,6 +138,7 @@ class HighwayEnvFast(HighwayEnv):
             if vehicle not in self.controlled_vehicles:
                 vehicle.check_collisions = False
 
+
 class MOHighwayEnv(HighwayEnv):
     """
     A multi-objective version of HighwayEnv
