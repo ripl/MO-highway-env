@@ -84,6 +84,6 @@ class MyEnv(MOHighwayEnv):
         return reward
 
 register(
-    id='my-env',
+    id='my-env-v0',
     entry_point='highway_env.envs:MyEnv',
 )
